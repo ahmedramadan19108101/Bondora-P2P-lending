@@ -55,7 +55,7 @@ Using **describe()** we could get the following result for the numerical feature
 -25th percentile
 -75th percentile
 
-**Visualization of Variables:**
+*Visualization of Variables:*
 -As illustrated, new customers resembles more than half the company's customers.
 -As shown, the maturity date for most of the loans has been restructured and increased by more than 60 days.
 -Only 5% of the borrowers didn't submit the first payment according to the schedule.
