@@ -55,7 +55,7 @@ Using **describe()** we could get the following result for the numerical feature
 -25th percentile
 -75th percentile
 
-*Visualization of Variables:*
+-Visualization of Variables:
 -As illustrated, new customers resembles more than half the company's customers.
 -As shown, the maturity date for most of the loans has been restructured and increased by more than 60 days.
 -Only 5% of the borrowers didn't submit the first payment according to the schedule.
@@ -66,7 +66,7 @@ Using **describe()** we could get the following result for the numerical feature
 -The majority of loans have an expected loss in the range of 0.05-0.15.
 -The probability of loan's default in one year horizon in the range of 0.1-0.35 for most of the loans. 
 -In the range of 0-500 loan's status is either late or current.While the range of 500-4000 , most of the loans the repaid.
--The probability of default for loans increases as the the interest increases.
+**-The probability of default for loans increases as the the interest increases.
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 
