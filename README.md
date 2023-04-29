@@ -76,7 +76,7 @@ from sklearn.preprocessing import StandardScaler
 
 scaler = StandardScaler()
 X1 = scaler.fit_transform(X1)
-```
+
 **fit_transform()** is used on the training data so that we can scale the training data and also learn the scaling parameters of that data. Here, the model built by us will learn the mean and variance of the features of the training set. These learned parameters are then used to scale our test data.
 
 **transform()** uses the same mean and variance as it is calculated from our training data to transform our test data. Thus, the parameters learned by our model using the training data will help us to transform our test data. As we do not want to be biased with our model, but we want our test data to be a completely new and a surprise set for our model.
@@ -95,7 +95,7 @@ Extremely Randomized Trees Classifier(Extra Trees Classifier) is a type of ensem
 ### Mutual Info Classifier:
 Mutual information (MI) [1] between two random variables is a non-negative value, which measures the dependency between the variables.
 
-~~~
+
 
 ### Choosing the features
 From the above two methods, we got which features are highly correlated with the target variable.Those features were used to train two different models to check the accuracy.
